@@ -15,8 +15,8 @@ INSERT INTO Customers (FirstName, LastName, Email, Phone) VALUES
 ('Johan', 'Nilsson', 'johan.nilsson@example.com', '070-9876543'),
 ('Emma', 'Bergman', 'emma.bergman@example.com', '070-5556677'),
 ('Lucas', 'Holm', 'lucas.holm@example.com', '070-1122334'),
-('Sara', 'Ekström', 'sara.ekstrom@example.com', '070-2233445'),
-('Anton', 'Vikström', 'anton.vikstrom@example.com', '070-3344556'),
+('Sara', 'EkstrÃ¶m', 'sara.ekstrom@example.com', '070-2233445'),
+('Anton', 'VikstrÃ¶m', 'anton.vikstrom@example.com', '070-3344556'),
 ('Hanna', 'Lindgren', 'hanna.lindgren@example.com', '070-4455667'),
 ('Oscar', 'Nyberg', 'oscar.nyberg@example.com', '070-5566778'),
 ('Maja', 'Sandberg', 'maja.sandberg@example.com', '070-6677889');
