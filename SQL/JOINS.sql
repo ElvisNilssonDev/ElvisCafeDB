@@ -18,7 +18,7 @@ SELECT
 FROM Customers
 LEFT JOIN Orders ON Customers.CustomerID = Orders.CustomerID;
 
--- show all customers even if they never ordered (Good for “Find customers who never ordered" incase thats useful)
+-- show all customers even if they never ordered (Good for â€œFind customers who never ordered" incase thats useful)
 
 SELECT 
     Products.ProductName,
@@ -37,7 +37,7 @@ FROM Customers
 FULL OUTER JOIN Orders ON Customers.CustomerID = Orders.CustomerID
 FULL OUTER JOIN Products ON Orders.ProductID = Products.ProductID;
 
--- Full outer JOIN show everything, even if no match exists LIKE customers that hasnt ordered anything yet, products that hasnt been sold or orders with missing customers in case a bug.
+-- This Full outer JOIN show everything, even if no match exists LIKE customers that hasnt ordered anything yet, products that hasnt been sold or orders with missing customers in case a bug.
 
 SELECT 
     Customers.FirstName,
@@ -49,4 +49,5 @@ JOIN Products ON Orders.ProductID = Products.ProductID
 GROUP BY Customers.FirstName, Customers.LastName;
 
 --total amount each customer has spent, no more no less. Just join customers then Join products and calculate the total spent with "Products.Price * Orders.Quantity" and sum it "SUM(Products.Price * Orders.Quantity)" and then group by Customers.FirstName, Customers.LastName.
+
 
