@@ -1,8 +1,0 @@
-Det finns många anledningar till att säkerhet är viktigt! Om någon får tillgång till din datbas så kan dem deleta alla ordrar och folk, sno din data och mycket mer.
-I sådana fall kan du faktiskt säkra dig genoma att ha Hashade lösenord, krypterad data some är känslig och olika nivåer på dina users Som Admin tillgång som kan skriva in och lägga till data och vanlig användare som bara kan läsa data men inte skriva in.
-
-# Authentication
-Handlar mest om vem du är och vad du får för behörighet beroende på vem du är, admin, user or nonUser etc Du får exempelvis inte logga in i en databas/connecta om du inte skall ha tillgång till databasen
-
-#Authorization
-Authorization handlar om att kontrollera vad användaren får göra. Skriva i databasen? Bara läsa data? eller ingen tillgång.
